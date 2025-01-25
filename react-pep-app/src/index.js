@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CAll from './Component/day1';
 import Intersercalculator from './Component/CAL_Interest';
+import Visuals from './Component/visuals';
+// import Visuals from './Component/Visuals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <CAll />
+    <Visuals/>
+    {/* <App /> */}
+    {/* <CAll /> */}
     {/* <DataSend></DataSend> */}
     <Intersercalculator></Intersercalculator>
   </React.StrictMode>
